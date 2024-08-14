@@ -3,10 +3,10 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   return (
-    <section className="flex justify-between items-center mt-16 md:z-[9999]">
-      <div className="pt-32 md:pt-4">
+    <section className="flex justify-between items-center mt-20">
+      <div className="pt-24 md:pt-12">
         <p className="text-[1.128rem] font-[700] text-primary uppercase mb-4">
-          Best Destinations around the world
+          Seamless Travel Solutions Tailored for You
         </p>
         <div className="flex flex-col">
           <div className="volkhov font-[700] text-[3rem] md:text-[4.73756rem] leading-large inline-flex text-lightBlue">
@@ -27,12 +27,15 @@ function HeroSection() {
         </div>
 
         <p className="my-[1.6rem] font-bold leading-[1.692rem] text-lightGray text-[1rem]">
-          Built Wicket longer admire do barton vanity itself do in it. Preferred
-          to sportsmen it engrossed listening. Park gate sell they west hard for
-          the.
+          From visa services and international air tickets to hotel bookings and
+          UAE city tours{" "}
+          <span className="font-bold text-primary">
+            &quot;Choudhary Facilities Management Service&quot;
+          </span>{" "}
+          is your trusted partner for a stress-free travel experience.
         </p>
 
-        <div className="flex gap-6 items-center ">
+        {/* <div className="flex gap-6 items-center ">
           <div>
             <MainButton
               text="Find out more"
@@ -46,7 +49,7 @@ function HeroSection() {
             />
             <p className="text-lightGrayAlt -mt-6">Play Demo</p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="hidden md:block">
         <img

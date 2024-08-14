@@ -7,32 +7,35 @@ function BookNextTripSection() {
       id: 0,
       iconUrl: "/images/destination-icon.png",
       title: "Choose Destination",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+      description: " ",
     },
     {
       id: 1,
       iconUrl: "/images/payment-icon.png",
-      title: "Make Payment",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+      title: "Contact Us",
+      description: "",
     },
     {
       id: 2,
+      iconUrl: "/images/payment-icon.png",
+      title: "Make Payment",
+      description: "",
+    },
+    {
+      id: 3,
       iconUrl: "/images/airport-icon.png",
       title: "Reach Airport on Selected Date",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+      description: "",
     },
   ];
   return (
-    <section className="flex justify-between flex-col md:flex-row items-center mt-[-10rem]">
+    <section className="flex justify-between flex-col md:flex-row items-center mt-[-3rem] pb-52">
       <div>
         <p className="text-lightGray text-[1.125rem] font-[600] text-left">
           Easy and Fast
         </p>
         <p className="volkhov text-[3.125rem] text-title font-[700] text-left">
-          Book your next trip in 3 easy steps
+          Book your next trip in 4 easy steps
         </p>
 
         <div className="flex flex-col gap-[3rem] mt-[1.94rem]">
@@ -47,7 +50,11 @@ function BookNextTripSection() {
         </div>
       </div>
       <div>
-        <img src="/images/next-trip.png" alt="card with a girl on a wall" />
+        <img
+          src="/images/choose.jpg"
+          alt="card with a girl on a wall"
+          className="h-[254px] py-4"
+        />
       </div>
     </section>
   );

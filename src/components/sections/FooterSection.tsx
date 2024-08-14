@@ -1,30 +1,36 @@
+import Link from "next/link";
 import React from "react";
 
 function FooterSection() {
   return (
-    <section>
-      <div className="flex flex-col md:flex-row justify-between gap-8 ">
+    <section className="px-4">
+      <div className="flex flex-col   justify-between gap-4 ">
         <div>
           <p>
-            <img src="/images/logo-bottom.png" alt="footer logo" />
-          </p>
-          <p className="text-lightGray mt-[1.19rem]">
-            Book your trip in minute, get full Control for much longer.
+            <img
+              src="/images/logo.png"
+              alt="footer logo"
+              className="w-[70px] h-[60px]"
+            />
           </p>
         </div>
-        <div className="flex gap-8 flex-grow justify-between">
+        <div className="grid lg:grid-cols-4 gap-2 flex-grow justify-between">
           <div className="flex flex-col gap-4">
             <p className="text-lightBlack font-[700] text-[1.3125rem]">
               Company
             </p>
             <div className="flex flex-col gap-2">
-              <p className="text-lightGray text-[1.125rem] font-[500]">About</p>
-              <p className="text-lightGray text-[1.125rem] font-[500]">
+              <Link href="/about">
+                <p className="text-lightGray text-[1.125rem] font-[500]">
+                  About Us
+                </p>
+              </Link>
+              {/* <p className="text-lightGray text-[1.125rem] font-[500]">
                 Careers
               </p>
               <p className="text-lightGray text-[1.125rem] font-[500]">
                 Mobile
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="flex flex-col gap-4">
@@ -32,40 +38,56 @@ function FooterSection() {
               Contact
             </p>
             <div className="flex flex-col gap-2">
-              <p className="text-lightGray text-[1.125rem] font-[500]">
-                Help/FAQ
-              </p>
-              <p className="text-lightGray text-[1.125rem] font-[500]">Press</p>
+              <Link href="/contact">
+                <p className="text-lightGray text-[1.125rem] font-[500]">
+                  Contact Us
+                </p>
+              </Link>
+              {/* <p className="text-lightGray text-[1.125rem] font-[500]">Press</p>
               <p className="text-lightGray text-[1.125rem] font-[500]">
                 Affilates
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="flex flex-col gap-4">
             <p className="text-lightBlack font-[700] text-[1.3125rem]">More</p>
             <div className="flex flex-col gap-2">
-              <p className="text-lightGray text-[1.125rem] font-[500]">
-                Airlinefees
-              </p>
-              <p className="text-lightGray text-[1.125rem] font-[500]">
+              {" "}
+              <Link href="/services">
+                <p className="text-lightGray text-[1.125rem] font-[500]">
+                  Services
+                </p>
+              </Link>
+              {/* <p className="text-lightGray text-[1.125rem] font-[500]">
                 Airline
               </p>
               <p className="text-lightGray text-[1.125rem] font-[500]">
                 Low fare tips
-              </p>
+              </p> */}
             </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <p className="text-lightBlack font-[700] text-[1.3125rem]">Info</p>
+
+            <p className="text-lightGray">
+              <span className="font-semibold"> Office :</span> No 326, Othman
+              Bldg opposit Khalid Mosque Fridge Al Murar Deira Dubai.
+              <br />
+              <span className="font-semibold"> Phone Number :</span> +971
+              542549658
+            </p>
           </div>
         </div>
         <div className="flex flex-col gap-4 items-center">
-          <div className="flex gap-4 items-center">
+          {/* <div className="flex gap-4 items-center">
             <img src="/images/facebook-icon.png" alt="social icon" />
             <img src="/images/instagram-icon.png" alt="social icon" />
             <img src="/images/x-icon.png" alt="social icon" />
-          </div>
-          <p className="text-lightGray font-[500] text-[1.25rem]">
+          </div> */}
+          {/* <p className="text-lightGray font-[500] text-[1.25rem]">
             Discover our app
-          </p>
-          <div className="flex flex-col md:flex-row gap-8">
+          </p> */}
+          {/* <div className="flex flex-col md:flex-row gap-8">
             <div className="bg-lightBlack rounded-extraLarge px-[1.06rem] py-[0.58rem] w-[11rem]">
               <div className="flex gap-4 items-center">
                 <div>
@@ -103,11 +125,11 @@ function FooterSection() {
               </div>
               <div></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <p className="my-[5.25rem] text-lightGray text-[0.875rem] font-[600] flex justify-center">
-        All rights reserved@jadoo.co
+      <p className="my-[2rem] text-lightGray text-[0.875rem] font-[600] flex justify-center">
+        All rights reserved@Choudhary Facilities Management Service.
       </p>
     </section>
   );
