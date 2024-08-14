@@ -116,12 +116,12 @@ const page = () => {
             </h2>
             <p className="mb-5 text-base text-center text-gray-600 sm:text-left md:text-lg">
               Discover the unique charm and culture of the UAE with our
-              personalized city tours. Whether you're interested in the bustling
-              streets of Dubai, the cultural heritage of Abu Dhabi, or the
-              scenic beauty of Sharjah, we craft tailor-made itineraries to
+              personalized city tours. Whether you are interested in the
+              bustling streets of Dubai, the cultural heritage of Abu Dhabi, or
+              the scenic beauty of Sharjah, we craft tailor-made itineraries to
               match your interests and pace. Our experienced guides offer
               insider knowledge and unique experiences, from iconic landmarks to
-              hidden gems. Enjoy a stress-free exploration of the UAE’s cities,
+              hidden gems. Enjoy a stress-free exploration of the UAE city,
               designed just for you.
             </p>
             <Link href={"/contact"} className="flex justify-center">
