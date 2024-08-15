@@ -138,6 +138,9 @@ const page = () => {
               <p className="mt-2 text-sm text-primary font-bold ">
                 +971 542549658
               </p>
+              <p className="mt-2 text-sm text-primary font-bold ">
+                +971 543360118
+              </p>
             </div>
           </div>
 
