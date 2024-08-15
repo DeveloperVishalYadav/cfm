@@ -81,8 +81,8 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999]   py-4 animate-in fade-in zoom-in  ${
-          menu ? " bg-white py-2" : "bg-white"
+        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999]   py-2 animate-in fade-in zoom-in  ${
+          menu ? " bg-white" : "bg-white"
         } `}
       >
         <div className="flex justify-between mx-[10px]">

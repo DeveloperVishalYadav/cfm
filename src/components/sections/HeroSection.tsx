@@ -5,19 +5,19 @@ function HeroSection() {
   return (
     <section className="flex lg:justify-between md:flex-row flex-col lg:mt-24">
       <div className="pt-24 md:pt-12">
-        <p className="text-[1.128rem] font-[700] text-primary uppercase mb-4 ">
+        <p className="text-[1.128rem] text-center md:text-start font-[700] text-primary uppercase mb-4 ">
           Choudhary Facilities Travel Solutions Tailored for You
         </p>
         <div className="flex flex-col md:mt-16">
-          <div className="volkhov font-[700] text-center text-[2.3rem] md:text-[4.73756rem] md:leading-large inline-flex text-lightBlue">
-            Travel, enjoy and live
+          <div className="font-[700] text-center md:text-start text-[1.8rem] md:text-[4.73756rem] md:leading-large  text-lightBlue">
+            Travel, Enjoy And Live
           </div>
-          <div className="volkhov font-[700] text-center text-[2.5rem] md:text-[4.73756rem] md:leading-large inline-flex text-lightBlue">
-            A new and full life
+          <div className="font-[700] text-center md:text-start text-[1.8rem] md:text-[4.73756rem] md:leading-large  text-lightBlue">
+            A New And Full Life
           </div>
         </div>
 
-        <p className="my-[1.6rem] font-bold leading-[1.692rem] text-lightGray text-[1rem] md:mt-16">
+        <p className="my-[1.6rem] font-bold leading-[1.692rem] text-lightGray text-[1rem] md:mt-16 md:text-start text-center">
           From visa services and international air tickets to hotel bookings and
           UAE city tours{" "}
           <span className="font-bold text-primary">
@@ -42,7 +42,7 @@ function HeroSection() {
           </div>
         </div> */}
       </div>
-      <div className="block">
+      <div className="md:mt-8">
         <img
           src="/images/lady-with-aircraft.png"
           alt="girl with phone with aircrafts on the background"
